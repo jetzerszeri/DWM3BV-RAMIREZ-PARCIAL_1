@@ -8,6 +8,7 @@
     --color-neutral: #F9F9EE;
     --color-darkblue: #003459;
     --color-red: #EA2D49;
+    --color-neutral60: #667479;
 }
 
 body{
@@ -26,6 +27,10 @@ li {
     list-style: none;
 }
 
+ul{
+    padding: 0;
+}
+
 nav {
     width: 100%;
     height: 58px;
@@ -35,6 +40,7 @@ nav {
     z-index: 200;
     /* padding: 0 16px; */
     color: var(--color-darkblue);
+    box-shadow: 0px 2px 15px -2px rgba(0, 0, 0, 0.08);
 }
 
 .navbar {
@@ -113,8 +119,8 @@ nav {
 
 /*------------ home ------------*/
   
-main{
-    /* padding: 0 16px; */
+main{ 
+    padding: 30px 20px;
 }
 
 .homebanner{
@@ -168,7 +174,7 @@ main{
 footer{
     height: 150px;
     max-width: 1350px;
-    margin: 80px auto 0 auto;
+    margin: 50px auto 0 auto;
     padding: 0 25px;
     font-size: 0.9em;
 }
@@ -193,6 +199,100 @@ footer a{
     background: url(../assets/img/logo2.png) no-repeat center;
     margin: 10px auto;
 }
+
+
+/*------------ Pagina de productos ------------*/
+/* migas */
+main header > p:first-child{
+    font-size: 0.8em;
+    margin: 0;
+    color: var(--color-neutral60);
+    cursor: pointer;
+}
+
+main header > p:first-child a {
+    font-size: 1em;
+    color: var(--color-neutral60);
+}
+
+main header > p:first-child a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    line-height: 0.9em;
+    font-size: 1.7em;
+    color: var(--color-darkblue);
+}
+
+h1 span{
+    font-size: .6em;
+    display: block;
+    color: black;
+    font-weight: 500;
+}
+
+.listadelibros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.listadelibros > li{
+    background-color: white;
+    padding: 14px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+}
+
+.listadelibros img{
+    max-height: 200px;
+    height: 100%;
+    max-width: 100%;
+}
+
+.listadelibros li > div:first-of-type ul li{
+    text-align: left;
+    padding: 3px;
+    font-size: 0.7em;
+}
+
+.listadelibros li > div:first-of-type{
+    padding-top: 10px;
+}
+
+.listadelibros h2{
+    margin: 0;
+    font-size: 1.3em;
+    padding: 0;
+    line-height: 1.2em;
+}
+
+.listadelibros li > div:first-of-type ul li:last-of-type{
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--color-darkblue);
+}
+.listadelibros li > div:first-of-type ul li:nth-of-type(2){
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 420px) {
+    .listadelibros {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/*------------ ##### ------------*/
 /* footer ul li:nth-child(1) {
     order: 1;
   } */
@@ -200,7 +300,13 @@ footer a{
 /* @media (min-width: 850px) {
 } */
 
-@media (min-width: 600px) {
+
+
+
+
+
+
+@media (min-width: 640px) {
     footer ul{
         flex-direction: row;
         align-items: center;
@@ -214,6 +320,12 @@ footer a{
     footer a{
         margin: 0;
     }
+
+    .listadelibros {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    
 
     /* footer ul li:nth-child(1) {
         order: 2;
@@ -291,6 +403,18 @@ footer a{
         scale: 1;
         transform-origin: left;
       }
+
+
+    .listadelibros {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    main{ 
+        padding: 20px 50px;
+        max-width: 1300px;
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 960px) {
@@ -327,7 +451,6 @@ footer a{
         line-height: 1.1em;
         
     }
-
 
 
 }
