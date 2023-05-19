@@ -39,6 +39,14 @@
             </div>
         </div>
     </main>
+    
+    <footer>
+        <ul>
+            <li>olympbooks.com</li>
+            <li><a href="#">home</a></li>
+            <li>© Mayo 21, 2023</li>
+        </ul>
+    </footer>
 
     <script>
         const toggleButton = document.getElementsByClassName("toggle-button")[0];
