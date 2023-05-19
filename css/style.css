@@ -111,9 +111,69 @@ header {
     font-size: 0;
     margin: 5px 0 0 15px;
   }
-  
 
-  @media (min-width: 850px) {
+  /* home */
+  
+main{
+    /* padding: 0 16px; */
+}
+
+.homebanner{
+    color: var(--color-darkblue);
+    text-align: center;
+    padding: 300px 16px 0 16px;
+    background: url(../assets/img/manreading-mobile.png) center top no-repeat;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.homebanner h1{
+    line-height: 1.3em;
+    font-size: 2.5em;
+
+}
+  
+.homebanner h1 span{
+    display: block;
+    font-weight: 500;
+    font-size: 0.7em;
+    /* margin-top: -10px; */
+    line-height: 1.1em;
+    
+}
+
+/* .homebanner h1 span::first-letter {
+    text-transform: uppercase;
+} */
+
+.homebanner p{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: 1.5px solid var(--color-darkblue);
+    border-radius: 57px;
+    background-color: transparent;
+    font-size: 0.8em;
+    color: var(--color-darkblue);
+}
+
+.btn:hover{
+    background-color: var(--color-darkblue);
+    color: var(--color-neutral);
+}
+
+
+
+
+
+/* @media (min-width: 850px) {
+} */
+
+
+@media (min-width: 850px) {
     header {
       height: 56px;
     }
@@ -183,3 +243,42 @@ header {
         transform-origin: left;
       }
 }
+
+@media (min-width: 960px) {
+
+    body{
+        font-size: 20px;
+    }
+
+    .homebanner{
+        background: none;
+        padding: 0 80px;
+        height: 510px;
+        /* border: #003459 1px solid; */
+        display: flex;
+        align-items: center;
+        text-align: left;
+        max-width: 1300px;
+        background: url(../assets/img/manreading-desk.png) center no-repeat;
+        margin: 50px auto;
+        font-size: 22px;
+    }
+
+    .homebanner div:first-child{
+        width: 40%;
+    }
+
+    .homebanner h1{
+        font-size: 3.1em;
+    }
+
+    .homebanner h1 span{
+        font-size: 2rem;
+        line-height: 1.1em;
+        
+    }
+
+
+
+}
+

@@ -10,27 +10,35 @@
 <body>
     
     <header>
-      <nav class="navbar">
+        <nav class="navbar">
         <div>Olympbooks</div>
         <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </a>
         <div class="navbar-links">
-          <ul>
+            <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Categorías</a></li>
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Datos</a></li>
-          </ul>
+            </ul>
         </div>
-      </nav>
+        </nav>
     </header>
 
-    <h1>Parcial I - Programación II </h1>
-    <p>Jake</p>
+
+    <main>
+        <div class="homebanner">
+            <div>
+                <h1>Bienvenido <span>al paraíso de los libros</span></h1>
+                <p>“Un escritor solo comienza un libro, un lector lo termina”</p>
+                <a href="#" class="btn">Explorar catálogo</a>
+            </div>
+        </div>
+    </main>
 
     <script>
         const toggleButton = document.getElementsByClassName("toggle-button")[0];
