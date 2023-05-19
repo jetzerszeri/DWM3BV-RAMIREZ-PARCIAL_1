@@ -9,8 +9,8 @@
 </head>
 <body>
     
-    <header>
-        <nav class="navbar">
+    <nav>
+        <div class="navbar">
         <div>Olympbooks</div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -26,11 +26,12 @@
             <li><a href="#">Datos</a></li>
             </ul>
         </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
 
-    <main>
+    <!-- main del home page -->
+
         <div class="homebanner">
             <div>
                 <h1>Bienvenido <span>al paraíso de los libros</span></h1>
@@ -38,7 +39,11 @@
                 <a href="#" class="btn">Explorar catálogo</a>
             </div>
         </div>
-    </main>
+
+
+
+    
+
     
     <footer>
         <ul>
