@@ -46,7 +46,7 @@
     <!-- main de la pagina de todos los productos -->
     <main>
         <header>
-            <p><a href="#">Inicio</a> > <a href="#">Todos los libros</a></p>
+            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Todos los libros</a></p>
             <h1><span>Explora</span> Todos los libros</h1>
         <header>
 
@@ -90,6 +90,89 @@
         </div>
 
     </main>
+
+
+    <!-- main de la pagina de categorias -->   
+    <main>
+
+        <header>
+            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Categorías</a></p>
+
+            <ul>
+                <li><a href="#">Ficción</a></li>
+                <li><a href="#">Misterio</a></li>
+                <li><a href="#">Fantasía</a></li>
+                <li><a href="#">Teror</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Harry Potter</a></li>
+            </ul>
+
+            <h1>Libros de ficción</h1>
+            <p>19 productos encontrados</p>
+        <header>
+
+        <div>
+            <ul class="listadelibros">
+                <li>
+                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
+                    <div>
+                        <ul>
+                            <li><h2>Los juegos<h2></li>
+                            <li>Suzanne Collins</li>
+                            <li>$10.98 US</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
+                    <div>
+                        <ul>
+                            <li><h2>Los juegos del hambre<h2></li>
+                            <li>Suzanne Collins</li>
+                            <li>$10.98 US</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
+                    <div>
+                        <ul>
+                            <li><h2>Los juegos del hambre<h2></li>
+                            <li>Suzanne Collins</li>
+                            <li>$10.98 US</li>
+                        </ul>
+                    </div>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <footer>
         <ul>

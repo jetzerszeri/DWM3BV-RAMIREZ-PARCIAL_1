@@ -203,19 +203,19 @@ footer a{
 
 /*------------ Pagina de productos ------------*/
 /* migas */
-main header > p:first-child{
+.breadcumbs:first-child{
     font-size: 0.8em;
     margin: 0;
     color: var(--color-neutral60);
     cursor: pointer;
 }
 
-main header > p:first-child a {
+.breadcumbs:first-child a {
     font-size: 1em;
     color: var(--color-neutral60);
 }
 
-main header > p:first-child a:hover{
+.breadcumbs:first-child a:hover{
     text-decoration: underline;
 }
 
@@ -244,7 +244,16 @@ h1 span{
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: transparent 2px solid;
 }
+
+.listadelibros > li:hover{
+    scale: 0.99;
+    border: var(--color-red) 2px solid;
+}
+
 
 .listadelibros img{
     max-height: 200px;
@@ -267,6 +276,13 @@ h1 span{
     font-size: 1.3em;
     padding: 0;
     line-height: 1.2em;
+    transition: all 0.2s ease;
+}
+
+
+
+.listadelibros li > div:first-of-type ul li:nth-of-type(2){
+    margin-top: -5px;
 }
 
 .listadelibros li > div:first-of-type ul li:last-of-type{
@@ -274,12 +290,69 @@ h1 span{
     font-size: 1em;
     color: var(--color-darkblue);
 }
-.listadelibros li > div:first-of-type ul li:nth-of-type(2){
-    margin-top: -5px;
+
+
+/*------------ Pagina de categorías ------------*/
+
+/* cantidad de prod. encontrados */
+header p:nth-of-type(2){
+    margin-top: -15px;
+}
+
+/* categroias */
+header > ul{
+    font-size: 0.8em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 30px 0;
 }
 
 
+header > ul li{
+    padding: 10px 0 4px 0;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
 
+
+header > ul li a{
+    display: block;
+    padding-top: 56px;
+    width: 100px;
+    margin: auto;
+    background: url(../assets/img/categorias-blue-mobile.png) no-repeat;
+    color: var(--color-darkblue);
+    transition: all 0.1s ease;
+}
+
+header > ul li:hover{
+    background-color: var(--color-darkblue);
+}
+header > ul li:hover a{
+    background: url(../assets/img/categorias-white-mobile.png) no-repeat;
+    color: white;
+}
+
+header > ul li:nth-child(1) a{
+    background-position: 0 0;
+}
+header > ul li:nth-child(2) a{
+    background-position: -100px 0;
+}
+header > ul li:nth-child(3) a{
+    background-position: -200px 0;
+}
+header > ul li:nth-child(4) a{
+    background-position: -300px 0;
+}
+header > ul li:nth-child(5) a{
+    background-position: -400px 0;
+}
+header > ul li:nth-child(6) a{
+    background-position: -500px 0;
+}
 
 
 
@@ -323,6 +396,12 @@ h1 span{
 
     .listadelibros {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    header > ul{
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        margin: 30px 0 50px 0; 
     }
 
     
