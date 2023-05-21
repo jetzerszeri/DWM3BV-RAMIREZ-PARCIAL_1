@@ -156,16 +156,17 @@ main{
     margin-bottom: 30px;
 }
 
-.btn{
+.btn, button{
     padding: 10px 25px;
     border: 1.5px solid var(--color-darkblue);
     border-radius: 57px;
     background-color: transparent;
     font-size: 0.8em;
     color: var(--color-darkblue);
+    transition: all 0.2s ease;
 }
 
-.btn:hover{
+.btn:hover, button:hover{
     background-color: var(--color-darkblue);
     color: var(--color-neutral);
 }
@@ -203,24 +204,24 @@ footer a{
 
 /*------------ Pagina de productos ------------*/
 /* migas */
-.breadcumbs:first-child{
+.breadcumbs{
     font-size: 0.8em;
-    margin: 0;
+    margin: 20px 0 ;
     color: var(--color-neutral60);
     cursor: pointer;
 }
 
-.breadcumbs:first-child a {
+.breadcumbs a {
     font-size: 1em;
     color: var(--color-neutral60);
 }
 
-.breadcumbs:first-child a:hover{
+.breadcumbs a:hover{
     text-decoration: underline;
 }
 
 h1{
-    line-height: 0.9em;
+    line-height: 1em;
     font-size: 1.7em;
     color: var(--color-darkblue);
 }
@@ -357,12 +358,65 @@ header > ul li:nth-child(6) a{
 
 
 
+/*------------ Pagina de detalles ------------*/
+.detalles{
+    margin-top: 30px;
+    /* text-align: center; */
+}
+
+.detalles img{
+    /* height: 100%; */
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.detalles > div > div:first-child{
+    text-align: center;
+    margin: 30px auto 60px auto;
+}
+
+/* autor y genero */
+.detalles > div > div:first-child p:nth-of-type(1), .detalles > div > div:first-child p:nth-of-type(2){
+    color: var(--color-neutral60);
+    font-size: 0.8em;
+    margin: 0;
+}
+/* titulo del libro */
+.detalles h1{
+    margin: 5px 5px 10px 5px;
+    line-height: 1.1em;
+}
+
+/* precio */
+.detalles > div > div:first-child p:nth-of-type(3){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+
+
+.detalles h2{
+    font-size: 1.4em;
+    margin: 60px 0 10px 0;
+}
+
+.detalles > div > p, .detalles > div > ul {
+    margin: 12px 0;
+}
+
+.detalles > div > ul span{
+    font-weight: 700;
+}
 
 @media (min-width: 420px) {
     .listadelibros {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 
 
 /*------------ ##### ------------*/
@@ -414,6 +468,8 @@ header > ul li:nth-child(6) a{
 
 
 @media (min-width: 850px) {
+
+    /* nav */
     nav {
       height: 56px;
     }
@@ -494,6 +550,27 @@ header > ul li:nth-child(6) a{
         width: 100%;
         margin: auto;
     }
+
+    .detalles{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: minmax(40%, 360px) 1fr;
+        grid-gap: 4%;
+    }
+
+    .detalles img{
+        margin: 0;
+        padding: 0 30px;
+        width: 100%;
+        max-height: 600px;
+    }
+
+    .detalles > div > div:first-child{
+        text-align: left;
+        margin: 0 auto 40px auto;
+    }
+
+
 }
 
 @media (min-width: 960px) {
