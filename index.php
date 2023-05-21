@@ -31,16 +31,13 @@
 
 
     <!-- main del home page -->
-
-        <!-- <div class="homebanner">
-            <div>
-                <h1>Bienvenido <span>al paraíso de los libros</span></h1>
-                <p>“Un escritor solo comienza un libro, un lector lo termina”</p>
-                <a href="#" class="btn">Explorar catálogo</a>
-            </div>
-        </div> -->
-
-
+    <!-- <div class="homebanner">
+        <div>
+            <h1>Bienvenido <span>al paraíso de los libros</span></h1>
+            <p>“Un escritor solo comienza un libro, un lector lo termina”</p>
+            <a href="#" class="btn">Explorar catálogo</a>
+        </div>
+    </div> -->
 
     
     <!-- main de la pagina de todos los productos -->
@@ -155,7 +152,7 @@
 
 
     <!-- main de la pagina de detalles de producto -->   
-    <main>
+    <!-- <main>
 
             <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Categorías</a> > <a href="#">Distopía</a> > Los juegos del hambre</p>
 
@@ -163,11 +160,11 @@
                 <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
                 <div>
                     <div>
-                    <p>Suzanne Collins</p>
-                    <h1>Los juegos del hambre</h1>
-                    <p>Género: Distopía</p>
-                    <p>$10.00 usd</p>
-                    <button>Agregar al carrito</button>
+                        <p>Suzanne Collins</p>
+                        <h1>Los juegos del hambre</h1>
+                        <p>Género: Distopía</p>
+                        <p>$10.00 usd</p>
+                        <button>Agregar al carrito</button>
                     </div>
 
                     <h2>Descripción</h2>
@@ -188,13 +185,37 @@
             </div>
 
 
+    </main> -->
 
 
 
+    <!-- main de la pagina de contacto -->
+    <main>
+        <header>
+            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Contacto</a></p>
+            <p>¿No encuentras el libro que buscas?</p>
+            <h1 class="contactoh1">Contáctanos</h1>
+        <header>
+
+        <form>
+            <div>
+                <label for="nombre">Nombre*</label>
+                <input type="text" name="nombre" id="nombre" placeholder="ej. Adrian Álvarez" required>
+			</div>
+            <div>
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" id="email" placeholder="username@dominio.com" required>
+			</div>
+            <div>
+                <label>Mensaje*</label>
+                <textarea placeholder="Cuéntanos sobre el libro que no encontraste" required></textarea> 
+            </div>
+            <p>*Campos obligatorios</p>
+            <button type="submit">Enviar</button>
+        </form>
 
 
     </main>
-
 
 
 
