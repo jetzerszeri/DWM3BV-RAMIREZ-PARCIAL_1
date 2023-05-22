@@ -263,7 +263,7 @@ h1 span{
 }
 
 .listadelibros li > div:first-of-type ul li{
-    text-align: left;
+    /* text-align: left; */
     padding: 3px;
     font-size: 0.7em;
 }
@@ -286,11 +286,18 @@ h1 span{
     margin-top: -5px;
 }
 
-.listadelibros li > div:first-of-type ul li:last-of-type{
+.listadelibros li > div:first-of-type ul li:nth-of-type(3){
     font-weight: 700;
     font-size: 1em;
     color: var(--color-darkblue);
 }
+
+.listadelibros li > div:first-of-type ul li:last-of-type{
+    margin: 6px auto;
+    font-size: 1em;
+}
+
+
 
 
 /*------------ Pagina de categorías ------------*/
