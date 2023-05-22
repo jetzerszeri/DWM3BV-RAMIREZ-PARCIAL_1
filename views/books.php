@@ -1,17 +1,7 @@
 <?php
 require_once 'libs/catalogos.php';
 
-$generosolicitado =  $_GET['genero'];
-$generosolicitado = $generosolicitado ? $generosolicitado : 'todos';
-
-
 $libros = obetenerCatalogoLibros();
-
-if ($generosolicitado == 'todos'){
-    $genero = $libros;
-} else {
-    $genero = filtrarPorGenero($libros, $generosolicitado);
-};
 
 ?>
 
@@ -26,7 +16,7 @@ if ($generosolicitado == 'todos'){
         <div>
             <ul class="listadelibros">
 
-            <?php foreach ($genero as $libro) { ?>
+            <?php foreach ($libros as $libro) { ?>
                 <li>
                     <img src="<?= $libro['imagen'] ?>" alt="Portada del libro <?= $libro['nombre'] ?>">
                     <div>

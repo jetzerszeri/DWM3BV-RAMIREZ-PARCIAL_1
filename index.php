@@ -10,65 +10,7 @@
 
 
     <!-- main de la pagina de categorias -->   
-    <!-- <main>
 
-        <header>
-            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Categorías</a></p>
-
-            <ul>
-                <li><a href="#">Ficción</a></li>
-                <li><a href="#">Misterio</a></li>
-                <li><a href="#">Fantasía</a></li>
-                <li><a href="#">Teror</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Romance</a></li>
-            </ul>
-
-            <h1>Libros de ficción</h1>
-            <p>19 productos encontrados</p>
-        <header>
-
-        <div>
-            <ul class="listadelibros">
-                <li>
-                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
-                    <div>
-                        <ul>
-                            <li><h2>Los juegos<h2></li>
-                            <li>Suzanne Collins</li>
-                            <li>$10.98 US</li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
-                    <div>
-                        <ul>
-                            <li><h2>Los juegos del hambre<h2></li>
-                            <li>Suzanne Collins</li>
-                            <li>$10.98 US</li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">
-                    <div>
-                        <ul>
-                            <li><h2>Los juegos del hambre<h2></li>
-                            <li>Suzanne Collins</li>
-                            <li>$10.98 US</li>
-                        </ul>
-                    </div>
-                </li>
-
-
-
-
-            </ul>
-        </div>
-
-
-    </main> -->
 
 
 

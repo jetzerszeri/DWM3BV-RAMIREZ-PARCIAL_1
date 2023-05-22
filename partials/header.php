@@ -21,7 +21,7 @@
             <ul>
             <li><a href="index.php?seccion=home">Home</a></li>
             <li><a href="index.php?seccion=books">Productos</a></li>
-            <li><a href="#">Categorías</a></li>
+            <li><a href="index.php?seccion=categorias">Categorías</a></li>
             <li><a href="index.php?seccion=contacto">Contacto</a></li>
             <li><a href="index.php?seccion=datos">Datos</a></li>
             </ul>
