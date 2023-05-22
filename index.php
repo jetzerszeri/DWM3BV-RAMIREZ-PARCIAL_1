@@ -1,5 +1,5 @@
 <?php include('partials/header.php')?>
-<?php include("views/detalles.php")?>
+<?php include("views/contacto.php")?>
     
 
 
@@ -65,45 +65,6 @@
 
     </main> -->
 
-
-    <!-- main de la pagina de detalles de producto -->   
-
-
-
-
-    <!-- main de la pagina de contacto -->
-    <!-- <main>
-        <header>
-            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Contacto</a></p>
-            <p>¿No encuentras el libro que buscas?</p>
-            <h1 class="contactoh1">Contáctanos</h1>
-        <header>
-
-        <form>
-            <div>
-                <label for="nombre">Nombre*</label>
-                <input type="text" name="nombre" id="nombre" placeholder="ej. Adrian" required>
-			</div>
-            <div>
-                <label for="apellido">Apellido*</label>
-                <input type="text" name="apellido" id="apellido" placeholder="ej. Álvarez" required>
-			</div>
-            <div>
-                <label for="email">E-mail*</label>
-                <input type="email" name="email" id="email" placeholder="username@dominio.com" required>
-			</div>
-            <div>
-                <label for="libro">Nombre de libro*</label>
-                <input type="text" name="libro" id="libro" placeholder="ej. El código DaVinci" required>
-			</div>
-            <div>
-                <label>Mensaje*</label>
-                <textarea placeholder="Cuéntanos sobre el libro que no encontraste" required></textarea> 
-            </div>
-            <p>*Campos obligatorios</p>
-            <button type="submit">Enviar</button>
-        </form>
-    </main> -->
 
 
     <!-- main de la pagina de contacto parte 2 -->
