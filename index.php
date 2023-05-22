@@ -1,4 +1,5 @@
 <?php include('partials/header.php')?>
+<?php include("views/home.php")?>
 
     <!-- main del home page -->
     <!-- <div class="homebanner">
@@ -160,7 +161,7 @@
 
 
     <!-- main de la pagina de contacto -->
-    <main>
+    <!-- <main>
         <header>
             <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Contacto</a></p>
             <p>¿No encuentras el libro que buscas?</p>
@@ -191,11 +192,11 @@
             <p>*Campos obligatorios</p>
             <button type="submit">Enviar</button>
         </form>
-    </main>
+    </main> -->
 
 
     <!-- main de la pagina de contacto parte 2 -->
-    <main>
+    <!-- <main>
         <div class="formularioenviado">
             <p>¡Mensaje enviado exitosamente!</p>
             <h1>Muchas gracias por contactarnos, Jetzer</h1>
@@ -204,7 +205,7 @@
 
             <a href="index.php" class="btn">Volver a inicio</a>
         </div>
-    </main>
+    </main> -->
 
 
 <?php include('partials/footer.php')?>
