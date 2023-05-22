@@ -9,9 +9,16 @@ $libros = obetenerCatalogoLibros();
 
 if ($generosolicitado == 'todos'){
     $genero = $libros;
+    $titulo = 'Selecciona una categoría para filtrar*';
+    $subtitulo = '*Mostrando todos los libros';
 } else {
     $genero = filtrarPorGenero($libros, $generosolicitado);
+    $cantidadencontrada = count($genero);
+    $titulo = 'Libros de ' . $generosolicitado;
+    $subtitulo = $cantidadencontrada . ' resultados encontrados';
 };
+
+
 
 ?>
 <script>
@@ -32,8 +39,8 @@ if ($generosolicitado == 'todos'){
         <li><a href="index.php?seccion=categorias&genero=romance">Romance</a></li>
     </ul>
 
-    <h1>Libros de <?= $generosolicitado ?></h1>
-    <p>19 productos encontrados</p>
+    <h1><?= $titulo ?></h1>
+    <p><?= $subtitulo ?></p>
 <header>
 
 <div>
