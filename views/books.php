@@ -23,6 +23,7 @@
                             <li><h2>Los juegos del hambre<h2></li>
                             <li>Suzanne Collins</li>
                             <li>$10.98 US</li>
+                            <a href="index.php?seccion=detalles&id=1" class="btn">Ver detalles</a>
                         </ul>
                     </div>
                 </li>
@@ -33,6 +34,7 @@
                             <li><h2>Los juegos del hambre<h2></li>
                             <li>Suzanne Collins</li>
                             <li>$10.98 US</li>
+                            <a href="index.php?seccion=detalles&id=0" class="btn">Ver detalles</a>
                         </ul>
                     </div>
                 </li>
