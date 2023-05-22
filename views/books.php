@@ -6,7 +6,6 @@ $libros = obetenerCatalogoLibros();
 ?>
 
 
-
 <main>
         <header>
             <p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > Todos los libros</p>

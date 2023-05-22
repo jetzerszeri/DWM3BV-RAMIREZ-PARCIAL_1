@@ -482,6 +482,42 @@ form p{
     font-weight: 700;
 }
 
+
+/*------------ Pagina de datos ------------*/
+.datos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.datos div{
+    padding: 30px;
+    border: var(--color-darkblue) 2px solid;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.datos div:hover{
+    scale: 1.1;
+    
+}
+
+.datos ul li:first-of-type{
+    font-weight: 700;
+    color: var(--color-red);
+    font-size: 1.5em;
+}
+
+.datos a{
+    color: var(--color-darkblue);
+    transition: all 0.2s ease;
+}
+
+.datos a:hover{
+    color: var(--color-neutral60);
+}
+
 @media (min-width: 420px) {
     .listadelibros {
         grid-template-columns: repeat(2, 1fr);
@@ -536,6 +572,7 @@ form p{
       } */
 
 }
+
 
 
 @media (min-width: 850px) {
