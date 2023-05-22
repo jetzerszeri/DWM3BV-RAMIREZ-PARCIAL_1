@@ -5,7 +5,7 @@
             <h1 class="contactoh1">Contáctanos</h1>
         <header>
 
-        <form>
+        <form method="GET" action="formulariorecibido.php">
             <div>
                 <label for="nombre">Nombre*</label>
                 <input type="text" name="nombre" id="nombre" placeholder="ej. Adrian" required>
