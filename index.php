@@ -20,8 +20,8 @@
                 <li><a href="#">Misterio</a></li>
                 <li><a href="#">Fantasía</a></li>
                 <li><a href="#">Teror</a></li>
-                <li><a href="#">Best Sellers</a></li>
-                <li><a href="#">Harry Potter</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Romance</a></li>
             </ul>
 
             <h1>Libros de ficción</h1>
