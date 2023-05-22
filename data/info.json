@@ -1,0 +1,96 @@
+{
+    "libros": [
+      {
+          "nombre": "1984",
+          "autor": "George Orwell",
+          "genero": "Ficción",
+          "descripcion": "1984 es una novela distópica que presenta una sociedad totalitaria controlada por el Gran Hermano. Winston Smith, el protagonista, lucha por rebelarse contra el sistema opresivo y por preservar su individualidad.",
+          "publicacion": "1949",
+          "editorial": "Secker & Warburg",
+          "idioma": "Inglés",
+          "paginas": 328,
+          "imagen": "assets/img/1984jpg",
+          "id": 0,
+          "precio": 10.55
+        },
+      {
+        "nombre": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "descripcion": "Cien años de soledad narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La obra fusiona realidad y fantasía, y aborda temas como el amor, la soledad y el paso del tiempo.",
+        "publicacion": "1967",
+        "editorial": "Sudamericana",
+        "idioma": "Español",
+        "paginas": 471,
+        "imagen": "assets/img/100asoledad.jpg",
+        "id": 1,
+        "precio": 11.50
+      },
+      {
+        "nombre": "El retrato de Dorian Gray",
+        "autor": "Oscar Wilde",
+        "genero": "Ficción",
+        "descripcion": "El retrato de Dorian Gray sigue la historia de un joven inmortal llamado Dorian Gray y su retrato envejeciendo en su lugar. La novela explora la corrupción moral y las consecuencias del deseo desenfrenado.",
+        "publicacion": "1890",
+        "editorial": "Lippincott's Monthly Magazine",
+        "idioma": "Inglés",
+        "paginas": 254,
+        "imagen": "assets/img/dorian.jpg",
+        "id": 2,
+        "precio": 8.88
+      },
+      {
+        "nombre": "Los miserables",
+        "autor": "Victor Hugo",
+        "genero": "Ficción",
+        "descripcion": "Los miserables es una obra épica que sigue la vida de Jean Valjean, un exconvicto, y su búsqueda de redención en la Francia del siglo XIX. La novela aborda temas de justicia, amor y esperanza.",
+        "publicacion": "1862",
+        "editorial": "A. Lacroix, Verboeckhoven & Cie",
+        "idioma": "Francés",
+        "paginas": 1488,
+        "imagen": "assets/img/miserables.jpg",
+        "id": 3,
+        "precio": 10.9
+      },
+      {
+        "nombre": "El código Da Vinci",
+        "autor": "Dan Brown",
+        "genero": "Misterio",
+        "descripcion": "El código Da Vinci sigue las aventuras del simbólogo Robert Langdon mientras investiga un asesinato y sigue una serie de pistas relacionadas con la historia del arte y la religión. La novela mezcla misterio, conspiraciones y elementos históricos.",
+        "publicacion": "2003",
+        "editorial": "Doubleday",
+        "idioma": "Inglés",
+        "paginas": 454,
+        "imagen": "assets/img/davinci.jpg",
+        "id": 4,
+        "precio": 12.8
+      },
+      {
+        "nombre": "La chica del tren",
+        "autor": "Paula Hawkins",
+        "genero": "Misterio",
+        "descripcion": "La chica del tren sigue a Rachel Watson, una mujer que se ve envuelta en la desaparición de una mujer llamada Megan Hipwell. La novela explora la percepción, la memoria y los secretos oscuros.",
+        "publicacion": "2015",
+        "editorial": "Riverhead Books",
+        "idioma": "Inglés",
+        "paginas": 336,
+        "imagen": "assets/img/chicatren.jpg",
+        "id": 5,
+        "precio": 10.40
+      },
+      {
+        "nombre": "El nombre del viento",
+        "autor": "Patrick Rothfuss",
+        "genero": "Misterio",
+        "descripcion": "El nombre del viento sigue la vida de Kvothe, un músico y mago conocido como el Arcano, mientras narra sus aventuras y su búsqueda de la verdad detrás de una serie de eventos misteriosos.",
+        "publicacion": "2007",
+        "editorial": "DAW Books",
+        "idioma": "Inglés",
+        "paginas": 662,
+        "imagen": "assets/img/nombreviento.jpg",
+        "id": 6,
+        "precio": 10.20
+      }
+    ]
+  }
+  

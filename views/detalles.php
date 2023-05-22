@@ -1,47 +1,13 @@
 <?php
 $id = $_GET['id'];
 
+function obetenerCatalogoLibros() {
+    $content = file_get_contents('data/info.json');
+    $data = json_decode($content, true);
+    return $data['libros'];
+};
 
-// $libro = "1984";
-// $autor= "George Orwell";
-// $genero= "ficcion";
-// $descripcion= "1984 es una novela distópica que presenta una sociedad totalitaria controlada por el Gran Hermano. Winston Smith, el protagonista, lucha por rebelarse contra el sistema opresivo y por preservar su individualidad.";
-// $publicacion= "1949";
-// $editorial= "Secker & Warburg";
-// $idioma= "Inglés";
-// $paginas= 328;
-// $imagen= "assets/img/1984.jpg";
-// $id= 1;
-// $precio = 11.50;
-
-$libros = [
-    [
-        "nombre" => "1984",
-        "autor" => "George Orwell",
-        "genero" => "Ficción",
-        "descripcion" => "1984 es una novela distópica que presenta una sociedad totalitaria controlada por el Gran Hermano. Winston Smith, el protagonista, lucha por rebelarse contra el sistema opresivo y por preservar su individualidad.",
-        "publicacion" => "1949",
-        "editorial" => "Secker & Warburg",
-        "idioma" => "Inglés",
-        "paginas" => '328',
-        "imagen" => "assets/img/1984.jpg",
-        "id" => '0',
-        "precio" => '11.5',
-    ],
-    [
-        "nombre" => "Cien años de soledad",
-        "autor" => "Gabriel García Márquez",
-        "genero" => "Ficción",
-        "descripcion" => "Cien años de soledad narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La obra fusiona realidad y fantasía, y aborda temas como el amor, la soledad y el paso del tiempo.",
-        "publicacion" => "1967",
-        "editorial" => "Sudamericana",
-        "idioma" => "Español",
-        "paginas" => '471',
-        "imagen" => "assets/img/100asoledad.jpg",
-        "id" => '1',
-        "precio" => '10.8',
-    ]
-    ];
+$libros = obetenerCatalogoLibros();
 
 $libro = $libros[$id];
 ?>
