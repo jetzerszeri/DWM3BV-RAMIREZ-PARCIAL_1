@@ -200,11 +200,19 @@
         <form>
             <div>
                 <label for="nombre">Nombre*</label>
-                <input type="text" name="nombre" id="nombre" placeholder="ej. Adrian Álvarez" required>
+                <input type="text" name="nombre" id="nombre" placeholder="ej. Adrian" required>
+			</div>
+            <div>
+                <label for="apellido">Apellido*</label>
+                <input type="text" name="apellido" id="apellido" placeholder="ej. Álvarez" required>
 			</div>
             <div>
                 <label for="email">E-mail*</label>
                 <input type="email" name="email" id="email" placeholder="username@dominio.com" required>
+			</div>
+            <div>
+                <label for="libro">Nombre de libro*</label>
+                <input type="text" name="libro" id="libro" placeholder="ej. El código DaVinci" required>
 			</div>
             <div>
                 <label>Mensaje*</label>
@@ -213,8 +221,20 @@
             <p>*Campos obligatorios</p>
             <button type="submit">Enviar</button>
         </form>
+    </main>
 
 
+    <!-- main de la pagina de contacto parte 2 -->
+    <main>
+
+        <div class="formularioenviado">
+            <p>¡Mensaje enviado exitosamente!</p>
+            <h1>Muchas gracias por contactarnos, Jetzer</h1>
+            <p>Recibimos tu solicitud sobre <span>El código Davinci</span>, en los próximos días nos pondremos en contacto contigo para notificarte cuando el libro esté disponible.</p>
+            <p>La notificación será enviada a: <span>jetzers.2@gmail.com</span></p>
+
+            <a href="index.php" class="btn">Volver a inicio</a>
+        </div>
     </main>
 
 

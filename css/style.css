@@ -460,6 +460,27 @@ form p{
     padding: 10px 0 16px 0;
 }
 
+.formularioenviado{
+    margin: 30px auto;
+    padding: 150px 30px 0 30px;
+    max-width: 700px;
+    background: url(../assets/img/check.png) top center no-repeat;
+    background-size: 150px 150px;
+    text-align: center;
+}
+
+.formularioenviado h1{
+    line-height: 1.2;
+}
+
+.formularioenviado p:last-of-type{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.formularioenviado span{
+    font-weight: 700;
+}
 
 @media (min-width: 420px) {
     .listadelibros {
