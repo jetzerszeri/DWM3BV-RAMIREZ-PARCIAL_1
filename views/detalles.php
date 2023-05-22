@@ -17,7 +17,7 @@ $libro = $libros[$id];
 
 <main>
 
-<p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > <a href="#">Categorías</a> > <a href="#">Distopía</a> > Los juegos del hambre</p>
+<p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > <a href="index.php?seccion=books">Libros</a> > <?= $libro['nombre'] ?></p>
 
 <div class="detalles">
     <img src="<?= $libro['imagen'] ?>" alt="Tapa del libro <?= $libro['nombre'] ?>">
