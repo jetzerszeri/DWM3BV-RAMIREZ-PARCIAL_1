@@ -16,13 +16,13 @@ $libro = $libros[$id];
 <p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > <a href="index.php?seccion=books">Libros</a> > <?= $libro['nombre'] ?></p>
 
 <div class="detalles">
-    <img src="<?= $libro['imagen'] ?>" alt="Tapa del libro <?= $libro['nombre'] ?>">
+    <img src="<?= $libro['imagen'] ?>" alt="Portada del libro <?= $libro['nombre'] ?>">
     <div>
         <div>
             <p><?= $libro['autor'] ?></p>
             <h1><?= $libro['nombre'] ?></h1>
             <p>Género: <?= $libro['genero'] ?></p>
-            <p>$<?= $libro['precio'] ?> usd</p>
+            <p>$<?= $libro['precio'] ?> USD</p>
             <button>Agregar al carrito</button>
         </div>
 

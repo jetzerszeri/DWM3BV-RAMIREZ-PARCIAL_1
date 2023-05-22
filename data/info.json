@@ -3,7 +3,7 @@
       {
           "nombre": "1984",
           "autor": "George Orwell",
-          "genero": "Ficción",
+          "genero": "ficcion",
           "descripcion": "1984 es una novela distópica que presenta una sociedad totalitaria controlada por el Gran Hermano. Winston Smith, el protagonista, lucha por rebelarse contra el sistema opresivo y por preservar su individualidad.",
           "publicacion": "1949",
           "editorial": "Secker & Warburg",
@@ -16,7 +16,7 @@
       {
         "nombre": "Cien años de soledad",
         "autor": "Gabriel García Márquez",
-        "genero": "Ficción",
+        "genero": "ficcion",
         "descripcion": "Cien años de soledad narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La obra fusiona realidad y fantasía, y aborda temas como el amor, la soledad y el paso del tiempo.",
         "publicacion": "1967",
         "editorial": "Sudamericana",
@@ -29,7 +29,7 @@
       {
         "nombre": "El retrato de Dorian Gray",
         "autor": "Oscar Wilde",
-        "genero": "Ficción",
+        "genero": "ficcion",
         "descripcion": "El retrato de Dorian Gray sigue la historia de un joven inmortal llamado Dorian Gray y su retrato envejeciendo en su lugar. La novela explora la corrupción moral y las consecuencias del deseo desenfrenado.",
         "publicacion": "1890",
         "editorial": "Lippincott's Monthly Magazine",
@@ -42,7 +42,7 @@
       {
         "nombre": "Los miserables",
         "autor": "Victor Hugo",
-        "genero": "Ficción",
+        "genero": "ficcion",
         "descripcion": "Los miserables es una obra épica que sigue la vida de Jean Valjean, un exconvicto, y su búsqueda de redención en la Francia del siglo XIX. La novela aborda temas de justicia, amor y esperanza.",
         "publicacion": "1862",
         "editorial": "A. Lacroix, Verboeckhoven & Cie",
@@ -55,7 +55,7 @@
       {
         "nombre": "El código Da Vinci",
         "autor": "Dan Brown",
-        "genero": "Misterio",
+        "genero": "misterio",
         "descripcion": "El código Da Vinci sigue las aventuras del simbólogo Robert Langdon mientras investiga un asesinato y sigue una serie de pistas relacionadas con la historia del arte y la religión. La novela mezcla misterio, conspiraciones y elementos históricos.",
         "publicacion": "2003",
         "editorial": "Doubleday",
@@ -68,7 +68,7 @@
       {
         "nombre": "La chica del tren",
         "autor": "Paula Hawkins",
-        "genero": "Misterio",
+        "genero": "misterio",
         "descripcion": "La chica del tren sigue a Rachel Watson, una mujer que se ve envuelta en la desaparición de una mujer llamada Megan Hipwell. La novela explora la percepción, la memoria y los secretos oscuros.",
         "publicacion": "2015",
         "editorial": "Riverhead Books",
@@ -81,7 +81,7 @@
       {
         "nombre": "El nombre del viento",
         "autor": "Patrick Rothfuss",
-        "genero": "Misterio",
+        "genero": "misterio",
         "descripcion": "El nombre del viento sigue la vida de Kvothe, un músico y mago conocido como el Arcano, mientras narra sus aventuras y su búsqueda de la verdad detrás de una serie de eventos misteriosos.",
         "publicacion": "2007",
         "editorial": "DAW Books",
