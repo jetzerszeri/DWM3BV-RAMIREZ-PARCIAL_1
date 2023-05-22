@@ -1,6 +1,6 @@
 <main>
 
-<p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Categorías</a> > <a href="#">Distopía</a> > Los juegos del hambre</p>
+<p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > <a href="#">Categorías</a> > <a href="#">Distopía</a> > Los juegos del hambre</p>
 
 <div class="detalles">
     <img src="assets/img/hungergames1.jpeg" alt="Tapa del libro Los juegos del hambre">

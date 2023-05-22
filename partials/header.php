@@ -19,11 +19,11 @@
         </a>
         <div class="navbar-links">
             <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Productos</a></li>
+            <li><a href="index.php?seccion=home">Home</a></li>
+            <li><a href="index.php?seccion=books">Productos</a></li>
             <li><a href="#">Categorías</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Datos</a></li>
+            <li><a href="index.php?seccion=contacto">Contacto</a></li>
+            <li><a href="index.php?seccion=datos">Datos</a></li>
             </ul>
         </div>
         </div>

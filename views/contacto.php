@@ -1,6 +1,6 @@
 <main>
         <header>
-            <p class="breadcumbs"><a href="#">Inicio</a> > <a href="#">Contacto</a></p>
+            <p class="breadcumbs"><a href="index.php?seccion=home">Inicio</a> > Contacto</p>
             <p>¿No encuentras el libro que buscas?</p>
             <h1 class="contactoh1">Contáctanos</h1>
         <header>
