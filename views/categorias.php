@@ -54,7 +54,7 @@ if ($generosolicitado == 'todos'){
                         <li><h2><?= $libro['nombre'] ?><h2></li>
                         <li><?= $libro['autor'] ?></li>
                         <li>$<?= $libro['precio'] ?> USD</li>
-                        <a href="index.php?seccion=detalles&id=<?= $libro['id'] ?>" class="btn">Ver detalles</a>
+                        <li><a href="index.php?seccion=detalles&id=<?= $libro['id'] ?>" class="btn">Ver detalles</a></li>
                     </ul>
                 </div>
             </li>
