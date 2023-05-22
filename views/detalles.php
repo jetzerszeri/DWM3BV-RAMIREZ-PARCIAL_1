@@ -1,11 +1,7 @@
 <?php
 $id = $_GET['id'];
 
-function obetenerCatalogoLibros() {
-    $content = file_get_contents('data/info.json');
-    $data = json_decode($content, true);
-    return $data['libros'];
-};
+require_once 'libs/catalogos.php';
 
 $libros = obetenerCatalogoLibros();
 
